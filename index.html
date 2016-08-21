@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Guess a number</title>
+    
+    <style>
+    	body{
+    		padding:20px;
+    	}
+    </style>
+</head>
+<body>
+<div class="rules"><p>Guess a random number between 0-100</p></p></div>
+
+<div class="guess"></div>
+
+<div class="guessWrapper">
+	<input type="text" id="yourAnswer"></input>
+	<button type="submit" onclick="yourGuess()">Guess</button>
+</div>
+
+<div id="reset"></div>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+<script src="guessNumber.js"></script>
+</body>
+</html>
