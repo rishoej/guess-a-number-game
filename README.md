@@ -1,4 +1,6 @@
 # Guess a number
+![](https://github.com/rishoej/src/blob/master/gifs/guess-a-number-game.gif)
+
 Guess a random rumber between 0 and 100. Using Javascript, jQuery and HTML.
 
 # Features
